@@ -28,7 +28,7 @@ jobs:
 
       - name: Run tests with pytest
         run: |
-          pytest --maxfail=1 --disable-warnings -q
+          PYTHONPATH=. pytest --maxfail=1 --disable-warnings -q
 
       - name: Run flake8 for linting
         run: |
