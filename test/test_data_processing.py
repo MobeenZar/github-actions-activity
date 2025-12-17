@@ -1,5 +1,4 @@
 from src.data_processing import add_numbers, multiply_numbers
-import pytest
 import os
 import sys
 
